@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  .navbar-name {
+    display: none;
+    float: left;
+  }
+
+  .container-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+
+  #certificate {
+    width: 100%;
+    padding-left: 5px;
+  }
+  .certificate img {
+    width: 300px;
+    height: 150px;
+  }
+  .container-project {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    gap: 2%;
+  }
+  .container-project img {
+    width: 100%;
+    height: 150px;
+  }
+  .content-1,
+  .content-2 {
+    width: 100%;
+  }
+}
